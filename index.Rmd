@@ -8,7 +8,7 @@ links:
     url: "https://medium.com/"
   - label: <i class="fa-solid fa-user"></i> SoundCloud
     url: "https://soundcloud.com/"
-  - label: <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+  - label: <i class="fab fa-twitter"></i> Twitter
     url: "https://twitter.com/"
 output:
   postcards::solana:
@@ -24,7 +24,7 @@ body {
 
 ## Bio
 
-Sigríður Björndotter is a [musician]('https://warroyomachado.com'), vocalist, and live entertainment consultant living in Buenos Aires, Argentina. Her writing has appeared in Rolling Stone, Billboard, and NME, and she is a frequent contributor to National Public Radio's *All Songs Considered*. She has been raising Pembroke Welsh Corgis since the age of six, and she has collected Casio watches since the age of ten. <i class="fa fa-twitter" aria-hidden="true"></i>
+Sigríður Björndotter is a [musician]('https://warroyomachado.com'), vocalist, and live entertainment consultant living in Buenos Aires, Argentina. Her writing has appeared in Rolling Stone, Billboard, and NME, and she is a frequent contributor to National Public Radio's *All Songs Considered*. She has been raising Pembroke Welsh Corgis since the age of six, and she has collected Casio watches since the age of ten. <i class="fab fa-twitter"></i>
 
 ## Education
 
