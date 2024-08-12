@@ -2,18 +2,17 @@
 title: "Wenceslao Arroyo Machado"
 image: "sigridur.jpg"
 links:
-  - label: Resume
-    url: "https://linkedin.com/"
+  - label: <i class="fab fa-orcid"></i> ORCID
+    url: "https://orcid.org/0000-0001-9437-8757"
   - label: Blog
     url: "https://medium.com/"
-  - label: <i class="fa-solid fa-user"></i> SoundCloud
-    url: "https://soundcloud.com/"
   - label: <i class="fab fa-twitter"></i> Twitter
     url: "https://twitter.com/"
 output:
   postcards::solana:
     includes:
       in_header: head.html
+      after_body: footer.html
 ---
 
 ```{css,echo=FALSE}
@@ -48,3 +47,7 @@ B.F.A. in Music Performance \| August 2005 - May 2009
 
 **Iceland Symphony Orchestra** \| Cellist \| October 2009 - June 2014
 
+<footer>
+<hr>
+<p style="text-align:center">Made with <i class="fas fa-heart"></i>&nbsp;in <i class="fab fa-r-project"></i></p>
+</footer>
