@@ -6,9 +6,9 @@ links:
     url: "https://linkedin.com/"
   - label: Blog
     url: "https://medium.com/"
-  - label: SoundCloud
+  - label: <i class="fa-solid fa-user"></i> SoundCloud
     url: "https://soundcloud.com/"
-  - label: <i class="fa-brands fa-twitter"></i> Twitter
+  - label: <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
     url: "https://twitter.com/"
 output:
   postcards::solana:
