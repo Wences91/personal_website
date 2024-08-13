@@ -31,6 +31,12 @@ body {
   border-color: #069;
 }
 
+button {
+  color: white !important;
+  background-color: #069 !important;
+  border-color: #069 !important;
+} 
+
 h1 {
   font-family: "Marcellus", serif;
   font-weight: 400;
