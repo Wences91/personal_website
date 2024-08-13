@@ -1,12 +1,12 @@
 ---
-title: "Wenceslao Arroyo Machado"
+title: "wenceslao arroyo machado"
 image: "sigridur.jpg"
 links:
-  - label: <i class="fab fa-orcid"></i> ORCID
+  - label: <i class="fab fa-orcid"></i> orcid
     url: "https://orcid.org/0000-0001-9437-8757"
-  - label: Blog
+  - label: blog
     url: "https://medium.com/"
-  - label: <i class="fab fa-twitter"></i> Twitter
+  - label: <i class="fab fa-twitter"></i> twitter
     url: "https://twitter.com/"
 output:
   postcards::solana:
@@ -17,37 +17,50 @@ output:
 
 ```{css,echo=FALSE}
 body {
-  background-color: #f0f8ff;
+  background-color: #ffffff;
 }
+
+.btn-outline-dark {
+  color: #069;
+  border-color: #069;
+}
+
+.btn-outline-dark:hover {
+  color: white;
+  background-color: #069;
+  border-color: #069;
+}
+
+h1 {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+}
+
+hr {
+  border-top: 1px solid rgba(0,0,0,1);
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
 ```
 
-## Bio
+## bio
 
-Sigríður Björndotter is a [musician]('https://warroyomachado.com'), vocalist, and live entertainment consultant living in Buenos Aires, Argentina. Her writing has appeared in Rolling Stone, Billboard, and NME, and she is a frequent contributor to National Public Radio's *All Songs Considered*. She has been raising Pembroke Welsh Corgis since the age of six, and she has collected Casio watches since the age of ten. <i class="fab fa-twitter"></i>
+wenceslao arroyo machado is phd student in information and communication technologies, supported by a fpu predoctoral fellowship at the department of information and communication of the university of granada (ugr). he holds a degree in information and documentation and a master’s degree in data science and computer engineering (ugr). he has worked as a researcher in the project knowmetrics - evaluation of knowledge in the digital society funded by the bbva foundation and as technical support staff in medialab ugr. his works focus on scientometrics and other areas derived related to the new paradigm of altmetrics and data science.
 
-## Education
 
-**INSEAD** \| Fontainebleau, France
-
-M.B.A. \| August 2014 - June 2015
-
-**The Juilliard School** \| New York, NY
-
-B.F.A. in Music Performance \| August 2005 - May 2009
-
-## Experience
-
-**Freelance** \| Live Entertainment Consultant \| August 2018 - Present
-
-**Cercle** \| Producer \| August 2018 - Present
-
-**National Public Radio** \| Producer \| May 2015 - July 2018
-
-**NME Magazine** \| Editor \| July 2014 - July 2016
-
-**Iceland Symphony Orchestra** \| Cellist \| October 2009 - June 2014
+## research lines
+i am interested...
 
 <footer>
 <hr>
-<p style="text-align:center">Made with <i class="fas fa-heart"></i>&nbsp;in <i class="fab fa-r-project"></i></p>
+<p style="text-align:center">made with <i class="fas fa-heart"></i>&nbsp;in <i class="fab fa-r-project"></i></p>
 </footer>
