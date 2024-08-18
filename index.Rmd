@@ -60,13 +60,24 @@ p {
 
 ## bio
 
-wenceslao arroyo machado is phd student in information and communication technologies, supported by a fpu predoctoral fellowship at the department of information and communication of the university of granada (ugr). he holds a degree in information and documentation and a master’s degree in data science and computer engineering (ugr). he has worked as a researcher in the project knowmetrics - evaluation of knowledge in the digital society funded by the bbva foundation and as technical support staff in medialab ugr. his works focus on scientometrics and other areas derived related to the new paradigm of altmetrics and data science.
+i’m a postdoc at arizona state university with a strong foundation in scientometrics and data analysis that began in granada (spain) with a solid predoctoral experience. i’ve published numerous articles in leading scientometrics journals and regularly review papers. i’ve been involved in various research and educational projects, and i’ve also focused on knowledge transfer as the coo of the ec3metrics spin-off. i’ve also organized and taught courses both nationally and internationally, contributing to initiatives like the european summer school of scientometrics and #yosigougr.
 
+## research focus & key contributions
 
-## research lines
-i am interested...
+• **big data & large-scale informetric analysis**<br>my main contribution has been processing and generating an open knowledge graph of wikipedia
+
+• **altmetrics & mapping social media**<br>i’ve mapped engagement around science on twitter
+
+• **new methods in science communication**<br>i developed a proposal to identify and quantify the impact of twitter bots on scientific discussions
+
+• **research evaluation**<br>i’ve contributed to the development of narrative bibliometrics
+
+• **applications of generative ai in academia**<br>i’ve helped integrate ai into academia through manuals and guides
 
 <footer>
+
 <hr>
-<p style="text-align:center">made with <i class="fas fa-heart"></i>&nbsp;in <i class="fab fa-r-project"></i></p>
+
+<p style="text-align:center">made with <i class="fas fa-heart"></i> in <i class="fab fa-r-project"></i></p>
+
 </footer>
