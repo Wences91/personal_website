@@ -4,14 +4,6 @@ image: "warroyom.png"
 links:
   - label: home
     url: "https://warroyomachado.com/"
-  - label: <i class="fab fa-orcid"></i> orcid
-    url: "https://orcid.org/0000-0001-9437-8757"
-  - label: blog
-    url: "https://medium.com/"
-  - label: <i class="fa-brands fa-bluesky"></i> bluesky
-    url: "https://bsky.com/"
-  - label: <i class="fab fa-twitter"></i> twitter
-    url: "https://twitter.com/"
   - label: references
     url: "references.html"
 output:
@@ -69,6 +61,13 @@ p {
 }
 
 ```
+
+### links
+
+you can find my full academic profile on [orcid](https://orcid.org/), browse all my publications on [google scholar](https://scholar.google.com/), and follow updates on both [twitter](https://twitter.com/) and [bluesky](https://bsky.app/). i also share code on [github](https://github.com/), post materials on [hackmd](https://hackmd.io/), and occasionally write informal thoughts on [influScience](https://www.influscience.eu/).
+
+i'm present on other platforms too, but i don’t keep them as active or up to date as these.
+
 
 ## bio
 

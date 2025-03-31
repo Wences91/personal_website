@@ -1,17 +1,9 @@
 ---
-title: "references"
+title: "wenceslao arroyo machado"
 image: "pubs.jpg"
 links:
   - label: home
     url: "https://warroyomachado.com/"
-  - label: <i class="fab fa-orcid"></i> orcid
-    url: "https://orcid.org/0000-0001-9437-8757"
-  - label: blog
-    url: "https://medium.com/"
-  - label: <i class="fa-brands fa-bluesky"></i> bluesky
-    url: "https://bsky.com/"
-  - label: <i class="fab fa-twitter"></i> twitter
-    url: "https://twitter.com/"
 output:
   postcards::solana:
     includes:
@@ -68,7 +60,6 @@ p {
 
 ```
 
-
 ```{r setup, include=FALSE}
 library(RefManageR)
 bib <- RefManageR::ReadBib("referencias.bib")
@@ -99,6 +90,8 @@ ggplot(df, aes(x = Año, y = Publicaciones)) +
 dev.off()
 ```
 
+# references
+
 ## articles
 
 ```{r, results='asis', echo=FALSE}
@@ -117,3 +110,11 @@ cat(tolower(capture.output(PrintBibliography(bib[ bib$bibtype == "InCollection",
 ```{r, results='asis', echo=FALSE, warning=FALSE}
 cat(tolower(capture.output(PrintBibliography(bib[ bib$bibtype == "InProceedings", ], .opts = list(sorting = "ydnt")))), sep = "\n")
 ```
+
+<footer>
+
+<hr>
+
+<p style="text-align:center">made with <i class="fas fa-heart"></i> in <i class="fab fa-r-project"></i></p>
+
+</footer>
