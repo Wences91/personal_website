@@ -1,6 +1,6 @@
 ---
 title: "wenceslao arroyo machado"
-image: "sigridur.jpg"
+image: "warroyom.png"
 links:
   - label: <i class="fab fa-orcid"></i> orcid
     url: "https://orcid.org/0000-0001-9437-8757"
@@ -32,6 +32,12 @@ body {
 }
 
 button {
+  color: #069 !important;
+  background-color: white !important;
+  border-color: #069 !important;
+}
+
+button:hover {
   color: white !important;
   background-color: #069 !important;
   border-color: #069 !important;
