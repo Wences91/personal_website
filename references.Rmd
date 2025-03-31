@@ -1,0 +1,119 @@
+---
+title: "references"
+image: "pubs.jpg"
+links:
+  - label: home
+    url: "https://warroyomachado.com/"
+  - label: <i class="fab fa-orcid"></i> orcid
+    url: "https://orcid.org/0000-0001-9437-8757"
+  - label: blog
+    url: "https://medium.com/"
+  - label: <i class="fa-brands fa-bluesky"></i> bluesky
+    url: "https://bsky.com/"
+  - label: <i class="fab fa-twitter"></i> twitter
+    url: "https://twitter.com/"
+output:
+  postcards::solana:
+    includes:
+      in_header: head.html
+      after_body: footer.html
+---
+
+```{css,echo=FALSE}
+body {
+  background-color: #ffffff;
+}
+
+.btn-outline-dark {
+  color: #069;
+  border-color: #069;
+}
+
+.btn-outline-dark:hover {
+  color: white;
+  background-color: #069;
+  border-color: #069;
+}
+
+button {
+  color: #069 !important;
+  background-color: white !important;
+  border-color: #069 !important;
+}
+
+button:hover {
+  color: white !important;
+  background-color: #069 !important;
+  border-color: #069 !important;
+} 
+
+h1 {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+}
+
+hr {
+  border-top: 1px solid rgba(0,0,0,1);
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+```
+
+
+```{r setup, include=FALSE}
+library(RefManageR)
+bib <- RefManageR::ReadBib("referencias.bib")
+RefManageR::Cite(bib)
+```
+
+```{r, include=FALSE}
+library(ggplot2)
+
+years <- sapply(bib, function(x) x$year)
+
+df <- as.data.frame(table(years))
+colnames(df) <- c("Año", "Publicaciones")
+
+jpeg('pubs.jpg', width=300, height = 300)
+ggplot(df, aes(x = Año, y = Publicaciones)) +
+  geom_col(width = 0.7, fill = "black") +
+  theme_classic(base_size = 14) +
+  labs(title = "",
+       x = "Year", y = "Publications") +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.text = element_text(size = 14, color = 'black'),
+    axis.title = element_text(size = 16, color = 'black', face = 'bold'),
+    plot.title = element_text(hjust = 0.5)
+  )
+dev.off()
+```
+
+## articles
+
+```{r, results='asis', echo=FALSE}
+cat(tolower(capture.output(PrintBibliography(bib[ bib$bibtype == "Article", ], .opts = list(sorting = "ydnt")))), sep = "\n")
+
+```
+
+## chapters
+
+```{r, results='asis', echo=FALSE}
+cat(tolower(capture.output(PrintBibliography(bib[ bib$bibtype == "InCollection", ], .opts = list(sorting = "ydnt")))), sep = "\n")
+```
+
+## conference proceedings
+
+```{r, results='asis', echo=FALSE, warning=FALSE}
+cat(tolower(capture.output(PrintBibliography(bib[ bib$bibtype == "InProceedings", ], .opts = list(sorting = "ydnt")))), sep = "\n")
+```

@@ -2,12 +2,18 @@
 title: "wenceslao arroyo machado"
 image: "warroyom.png"
 links:
+  - label: home
+    url: "https://warroyomachado.com/"
   - label: <i class="fab fa-orcid"></i> orcid
     url: "https://orcid.org/0000-0001-9437-8757"
   - label: blog
     url: "https://medium.com/"
+  - label: <i class="fa-brands fa-bluesky"></i> bluesky
+    url: "https://bsky.com/"
   - label: <i class="fab fa-twitter"></i> twitter
     url: "https://twitter.com/"
+  - label: references
+    url: "references.html"
 output:
   postcards::solana:
     includes:
@@ -66,7 +72,7 @@ p {
 
 ## bio
 
-i’m a postdoc at arizona state university with a strong foundation in scientometrics and data analysis that began in granada (spain) with a solid predoctoral experience. i’ve published numerous articles in leading scientometrics journals and regularly review papers. i’ve been involved in various research and educational projects, and i’ve also focused on knowledge transfer as the coo of the ec3metrics spin-off. i’ve also organized and taught courses both nationally and internationally, contributing to initiatives like the european summer school of scientometrics and #yosigougr.
+i am currently a postdoctoral researcher at ingenio (csic-upv) under a momentum contract. my academic background is rooted in scientometrics and data analysis, with a strong foundation developed during my predoctoral training in granada (spain). i have published extensively in leading scientometrics journals and regularly serve as a peer reviewer. in addition to my research activity, i have been actively involved in various national and international research and educational projects. in 2024, i held a postdoctoral position at arizona state university, further expanding my international research experience. in the same year, i was awarded a juan de la cierva contract, which i declined in order to accept the momentum fellowship. my professional profile also includes significant contributions to knowledge transfer as the chief operating officer of the [ec3metrics spin-off](https://yosigo.ugr.es). i have organized and taught courses both nationally and internationally, contributing to initiatives such as the european summer school for scientometrics and [#yosigougr](https://yosigo.ugr.es).
 
 ## research focus & key contributions
 
