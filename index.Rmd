@@ -62,7 +62,7 @@ p {
 
 ```
 
-### links
+## links
 
 you can find my full academic profile on [orcid](https://orcid.org/), browse all my publications on [google scholar](https://scholar.google.com/), and follow updates on both [twitter](https://twitter.com/) and [bluesky](https://bsky.app/). i also share code on [github](https://github.com/), post materials on [hackmd](https://hackmd.io/), and occasionally write informal thoughts on [influScience](https://www.influscience.eu/).
 
