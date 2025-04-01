@@ -95,8 +95,14 @@ dev.off()
 ## articles
 
 ```{r, results='asis', echo=FALSE}
-cat(tolower(capture.output(PrintBibliography(bib[ bib$bibtype == "Article", ], .opts = list(sorting = "ydnt")))), sep = "\n")
-
+articles <- bib[ bib$bibtype == "Article", ]
+for (i in seq_along(articles)) {
+  if (!is.null(articles[[i]]$file)) {
+    file_path <- strsplit(articles[[i]]$file, ":")[[1]][2]  # Obtener solo la ruta
+    articles[[i]]$note <- paste0("Disponible en ", '<a href="https://warroyomachado.com/', file_path, '">PDF</a>')
+  }
+}
+cat(tolower(capture.output(PrintBibliography(articles, .opts = list(sorting = "ydnt")))), sep = "\n")
 ```
 
 ## chapters
