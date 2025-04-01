@@ -1,6 +1,6 @@
 ---
 title: "wenceslao arroyo machado"
-image: "pubs.jpg"
+image: "pubs.png"
 links:
   - label: home
     url: "https://warroyomachado.com/"
@@ -74,17 +74,17 @@ years <- sapply(bib, function(x) x$year)
 df <- as.data.frame(table(years))
 colnames(df) <- c("Año", "Publicaciones")
 
-jpeg('pubs.jpg', width=300, height = 300)
+png('pubs.png', width=600, height = 600, res = 150)
 ggplot(df, aes(x = Año, y = Publicaciones)) +
-  geom_col(width = 0.7, fill = "black") +
+  geom_col(width = 0.7, fill = "#069") +
   theme_classic(base_size = 14) +
   labs(title = "",
        x = "Year", y = "Publications") +
   theme(
     panel.grid.major.x = element_blank(),
     panel.grid.minor = element_blank(),
-    axis.text = element_text(size = 14, color = 'black'),
-    axis.title = element_text(size = 16, color = 'black', face = 'bold'),
+    axis.text = element_text(size = 13, color = 'black'),
+    axis.title = element_text(size = 15, color = 'black', face = 'bold'),
     plot.title = element_text(hjust = 0.5)
   )
 dev.off()
