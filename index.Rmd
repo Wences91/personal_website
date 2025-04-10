@@ -75,15 +75,15 @@ i am currently a postdoctoral researcher at ingenio (csic-upv) under a momentum 
 
 ## research focus & key contributions
 
-• **big data & large-scale informetric analysis**<br>my main contribution has been processing and generating an open knowledge graph of wikipedia
+• **big data & large-scale informetric analysis**<br>my main contribution has been processing and generating an open [knowledge graph of wikipedia](https://doi.org/10.1162/qss_a_00226)
 
-• **altmetrics & mapping social media**<br>i’ve mapped engagement around science on twitter
+• **altmetrics & mapping social media**<br>i’ve [mapped engagement](https://doi.org/10.1007/s11192-021-04167-8) around science on twitter
 
 • **new methods in science communication**<br>i developed a proposal to identify and quantify the impact of twitter bots on scientific discussions
 
-• **research evaluation**<br>i’ve contributed to the development of narrative bibliometrics
+• **research evaluation**<br>i’ve contributed to the development of [narrative bibliometrics](https://doi.org/10.1016/j.joi.2024.101546)
 
-• **applications of generative ai in academia**<br>i’ve helped integrate ai into academia through manuals and guides
+• **applications of generative ai in academia**<br>i’ve helped integrate ai into academia through [manuals and guides](https://doi.org/10.5281/zenodo.10025783)
 
 <footer>
 
